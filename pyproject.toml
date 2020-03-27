@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "slack_saved_phrases"
+version = "0.1.0"
+description = "A flask app that saves commond phrases for members of a Slack group."
+authors = ["Dmitry <d.lukashov@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+slackeventsapi = {git = "https://github.com/slackapi/python-slack-events-api.git"}
+flask = {git = "https://github.com/pallets/flask.git"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
