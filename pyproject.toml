@@ -9,6 +9,8 @@ license = "MIT"
 python = "^3.7"
 slackeventsapi = {git = "https://github.com/slackapi/python-slack-events-api.git"}
 flask = {git = "https://github.com/pallets/flask.git"}
+zappa = "^0.51.0"
+python-dotenv = "^0.12.0"
 
 [tool.poetry.dev-dependencies]
 
